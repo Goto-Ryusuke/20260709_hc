@@ -1,0 +1,33 @@
+@charset "utf-8";
+@charset "utf-8";
+
+/* 共通スタイル */
+div {
+    /* 共通領域 */
+    width: 500px;
+    height: 500px;
+    border: 1px solid #000;
+    margin: 1em 0;
+        /* 文字 */
+    color: #555;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        /* 背景画像 */
+    background-image: url("");
+    background-repeat: no-repeat;
+}
+
+.bg-1 {
+    background: #1cc4ab;
+}
+
+.bg-2 {
+    background: url("dog.jpg") center / contain no-repeat;
+}
+
+.bg-3{
+    background: url(dog.jpg) right top / cover fixed no-repeat;
+}
